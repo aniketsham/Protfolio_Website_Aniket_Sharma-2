@@ -1,0 +1,128 @@
+.exp-heading{
+    font-family:'Helvetica Neue';
+    font-size: 35px;
+}
+.parent-class-experience,.parent-class-education-details{
+    font-family:'Helvetica Neue';
+    
+}
+
+.parent-class-education-details{
+    display: flex;
+}
+.Education-details{
+    padding-left: 5%;
+    font-size: 20px;
+    width: 25%;
+    animation: slideInEven 1s ease-in-out forwards
+
+}
+.experience-details{
+    padding-left: 5%;
+    font-size: 20px;
+    width: 25%;
+    animation: slideInEven 2s ease-in-out forwards;
+}
+.Education-header, .Certification-header,.experience-header{
+    font-family: Coolvetica;
+    background-color: rgb(255, 196, 0);
+    width: 90%;
+}
+.Certification-details1{
+    padding-left: 5%;
+    font-size: 20px;
+    width: 19.5%;
+    animation: slideInEven 1.5s ease-in-out forwards
+
+}
+.Certification-details2{
+    padding-left: 2%;
+    font-size: 20px;
+    width: 19.5%;
+    animation: slideInEven 1.5s ease-in-out forwards
+}
+
+.parent-class-DownloadCV-btn{
+    padding-top: 2%;
+    padding-left: 5%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.DownloadCV-btn{
+    
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family:'Helvetica Neue';
+    background-color: rgb(255, 196, 0);
+}
+.Download-logo{
+
+    background-color: white;
+     border-radius: 30px;
+    border: 1px solid black;
+}
+.education-logo{
+    padding-left: 1%;
+}
+
+.parent-class-skills{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    font-family: Helvetica Neue;
+}
+.skills-header{
+    padding-left: 5%;
+    font-size: 40px;
+}
+.skills-name{
+    font-size: 25px;
+    background-color:rgb(255, 196, 0);
+    display: inline;
+    border: 2px solid black;
+    animation: slideInEven 1.5s ease-in-out forwards;
+}
+.skills-details{
+    padding-left: 5%;
+    animation: slideInEven 1s ease-in-out forwards;
+
+}
+.skill-level {
+    display: flex;
+    align-items: center;
+    animation: slideInOdd 3s ease-in-out forwards;
+  }
+  
+  .skill-level .bar {
+    height: 8px;
+    background-color: #3498db; /* Blue color, you can change this */
+    margin-right: 5px;
+  }
+  
+  /* Example styling for different skill levels */
+  .skill-level .bar-1 {
+    width: 20%; /* Adjust the width based on skill level */
+    
+  }
+  
+  .skill-level .bar-2 {
+    width: 40%;
+  }
+  
+  .skill-level .bar-3 {
+    width: 60%;
+  }
+  
+  .skill-level .bar-4 {
+    width: 80%;
+  }
+  
+  .skill-level .bar-5 {
+    width: 100%;
+  }

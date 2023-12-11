@@ -1,0 +1,56 @@
+.Feel-free{
+    font-family: Helvetica Neue;
+font-size: 100px;
+}
+.Envelope-icon{
+    width: 3%;
+    height: auto;
+}
+.Instagram-icon{
+    width: 3%;
+    height: auto;
+}
+.Phone-icon{
+    width: 3%;
+    height: auto;
+}
+.Linkedin-icon{
+    width: 3%;
+    height: auto;
+}
+.Github-icon{
+    width: 3%;
+    height: auto;
+}
+.email-addr{
+padding-left: 2%;
+    font-size: 40px;
+}
+
+.contact-details-en,.contact-details-li,.contact-details-ph,.contact-details-in,.contact-details-gh{
+
+    display: flex;
+    padding-top: 2.5%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.contact-details-en{
+    animation: slideInEven 1s ease-in-out forwards;
+}
+.contact-details-in{
+    animation: slideInEven 1.25s ease-in-out forwards;
+
+}
+.contact-details-ph{
+    animation: slideInEven 1.5s ease-in-out forwards;
+}
+
+.contact-details-li{
+    animation: slideInEven 1.75s ease-in-out forwards;
+
+}
+.contact-details-gh{
+    animation: slideInEven 1.75s ease-in-out forwards;
+}

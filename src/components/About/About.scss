@@ -1,0 +1,50 @@
+.parent-class-heading{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.Heading{
+    font-family: Coolvetica;
+    display: inline;
+    border: 3px solid black;
+    background-color: rgb(255, 196, 0);
+}
+.parent-class-aboutme-data{
+    font-family: Helvetica Neue;
+    font-size: 50px;
+    padding-left: 10%;
+}
+.aboutme-body{
+    font-size: 30px;
+    width: 90%;
+    text-align: justify;
+}
+.what-I-do{
+    padding-left: 10%;
+    font-size: 40px;
+    
+}
+.WEB, .BACK, .API{
+    .role-header{
+        font-size: 30px;
+        font-weight: bold;
+        animation: slideInEven 1.5s ease-in-out forwards;
+       
+    }
+    p{
+
+        font-size: 20px;
+        padding-left: 20%;
+        width: 70%;
+        text-align: justify;
+        animation: slideInEven 2s ease-in-out forwards
+
+    }
+    img{
+        float: left;
+        width: 10%;
+        animation: slideInEven 1s ease-in-out forwards;
+    }
+    padding-bottom: 5%;
+    font-family: Helvetica Neue;
+}
+

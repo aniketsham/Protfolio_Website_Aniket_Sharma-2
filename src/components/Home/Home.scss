@@ -1,0 +1,71 @@
+h1{
+    font-family:'Helvetica Neue';
+    font-size: 100px;
+    text-indent: 5%;
+}
+@keyframes slideInOdd {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInEven {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }}
+.Greeting{
+    font-size: 50px;
+    animation: slideInOdd 1.5s ease-in-out forwards;}
+.myName{
+    font-family:'Helvetica Neue';
+    color: black;
+    -webkit-text-fill-color:whitesmoke; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 5px rgb(255, 196, 0);
+    animation: slideInEven 2s ease-in-out forwards
+}
+.parent-class-role-desc{
+    padding-left: 5.1%;
+    padding-bottom: 3%;
+}
+.role-desc{
+    font-family: "Coolvetica";
+    background-color: rgb(255, 196, 0);
+    font-size: 50px;
+    animation: slideInEven 2s ease-in-out forwards;
+    width: 30%;
+
+}
+
+.my-image{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    margin: 0;
+    float: right;
+    position: relative;
+    z-index: -1;
+}
+
+.parent-class-about-btn{
+    padding-left: 5%;
+}
+
+.about-me-btn{
+    font-size: 300%;
+    font-family: "Coolvetica";
+    background-color:rgb(255, 196, 0);
+    text-decoration: none;
+    color: black;
+    border: 3px solid black; 
+}

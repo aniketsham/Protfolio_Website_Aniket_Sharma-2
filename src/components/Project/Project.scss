@@ -1,0 +1,56 @@
+.project-link-btn{
+    font-size: 30px;
+    font-family: Coolvetica;
+    border: 2px solid black;
+    width: 15%;
+    background-color: rgb(255, 196, 0);
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.project-duration{
+   
+    
+    background-color:rgb(255, 196, 0) ;
+    display: inline;
+    text-align: justify;
+}
+.project-header{
+    border: 2px solid black;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    background-color:rgb(255, 196, 0) ;
+    padding: 0.5%;
+    width: 30%;
+}
+.project-Desc{
+    width: 75%;
+    text-align:justify ;
+}
+.parent-class-Project{
+    font-size: 20px;
+    padding-bottom: 2%;
+    width: 95%;
+}
+.goto-site{
+    padding: 1%;
+}
+.class1{
+    animation: slideInEven 1s ease-in-out forwards;
+}
+.class2{
+    animation: slideInEven 1.25s ease-in-out forwards;
+}
+.class3{
+    animation: slideInEven 1.5s ease-in-out forwards;
+}
+.class4{
+    animation: slideInEven 1.75s ease-in-out forwards;
+}
+.class5{
+    animation: slideInEven 2s ease-in-out forwards;
+}
+.class6{
+    animation: slideInEven 2.25s ease-in-out forwards;
+}
